@@ -1,0 +1,22 @@
+{
+  "defaultBooking": {
+    "fullName": "Murali Perumal",
+    "email": "muralibv3@gmail.com",
+    "phone": "+91 98765 43210"
+  },
+  "singleTicketRefundBooking": {
+    "fullName": "Murali Perumal",
+    "email": "muralibv3@gmail.com",
+    "phone": "+91 98765 43210",
+    "ticketCount": 1,
+    "expectedEligibility": "Eligible for refund",
+    "expectedReasonText": "Single-ticket bookings qualify for a full refund"
+  },
+  "multiTicketRefundBooking": {
+    "fullName": "Murali Perumal",
+    "email": "muralibv3@gmail.com",
+    "phone": "+91 98765 43210",
+    "ticketCount": 3,
+    "expectedEligibility": "Not eligible for refund"
+  }
+}

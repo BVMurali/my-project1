@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mvn -version)",
+      "Bash(curl *)",
+      "Bash(mkdir -p /c/Users/bvmural/AppData/Local/Temp/claude/C--Users-bvmural-Documents-Myproject-2-MyFirstProject/f77df46f-dc35-405b-abaf-22338a00c2da/scratchpad)",
+      "Read(//c/Users/bvmural/AppData/Local/Temp/claude/C--Users-bvmural-Documents-Myproject-2-MyFirstProject/f77df46f-dc35-405b-abaf-22338a00c2da/**)",
+      "Bash(unzip -q maven.zip)",
+      "Bash(where firefox.exe)",
+      "Read(//c/Program Files/Microsoft/Edge/**)",
+      "Read(//c/Program Files \\\\\\(x86\\\\\\)/Microsoft/Edge/Application//**)",
+      "Bash(reg query *)",
+      "Bash(/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe *)",
+      "Bash(nslookup msedgedriver.azureedge.net)",
+      "Bash(python3 *)",
+      "Bash(where pandoc *)",
+      "Bash(where wkhtmltopdf *)",
+      "Bash(where python *)",
+      "Bash(where python3 *)",
+      "Bash(npm --version)",
+      "Bash(mv \"src/AdminEventPage.java\" \"selenium-bdd-framework/src/main/java/com/eventhub/framework/pages/AdminEventPage.java\")",
+      "Bash(mv \"src/RegressionTestRunner.java\" \"selenium-bdd-framework/src/test/java/com/eventhub/framework/runners/RegressionTestRunner.java\")",
+      "Bash(mv \"src/AdminEventSteps.java\" \"selenium-bdd-framework/src/test/java/com/eventhub/framework/stepdefinitions/AdminEventSteps.java\")",
+      "Bash(mv \"src/SmokeTestRunner.java\" \"selenium-bdd-framework/src/test/java/com/eventhub/framework/runners/SmokeTestRunner.java\")"
+    ]
+  }
+}

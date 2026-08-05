@@ -1,0 +1,12 @@
+target/
+reports/
+screenshots/
+logs/
+allure-results/
+allure-report/
+*.class
+.idea/
+*.iml
+.vscode/
+.DS_Store
+*.log

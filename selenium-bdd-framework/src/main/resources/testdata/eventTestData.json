@@ -1,0 +1,11 @@
+{
+  "defaultEvent": {
+    "titlePrefix": "Test Event",
+    "description": "Automated test event created by the Selenium BDD framework to validate the booking flow end-to-end.",
+    "city": "Bengaluru",
+    "venue": "EventHub Convention Center",
+    "futureDaysAhead": 7,
+    "price": "100",
+    "totalSeats": "50"
+  }
+}
