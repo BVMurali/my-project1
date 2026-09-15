@@ -3,13 +3,7 @@ package com.eventhub.framework.context;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Per-scenario shared state, injected via Cucumber-PicoContainer into every
- * step definition class that declares it as a constructor dependency. This
- * is how data captured in one step (e.g. the generated event title, the
- * seat count before booking, the booking reference) flows to later steps
- * without step definition classes reaching into each other directly.
- */
+
 public class ScenarioContext {
 
     public static final String EVENT_TITLE = "eventTitle";
