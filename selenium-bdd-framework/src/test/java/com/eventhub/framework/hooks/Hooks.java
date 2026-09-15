@@ -52,7 +52,8 @@ public class Hooks {
             DriverManager.quitDriver();
         }
     }
-
+ #hi murali
+ #hi
     private void attachScreenshot(WebDriver driver, Scenario scenario) {
         byte[] screenshot = ScreenshotUtils.captureAsBytes(driver);
         scenario.attach(screenshot, "image/png", scenario.getName());

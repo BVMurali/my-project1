@@ -9,12 +9,12 @@ import static io.cucumber.junit.platform.engine.Constants.FILTER_TAGS_PROPERTY_N
 import static io.cucumber.junit.platform.engine.Constants.GLUE_PROPERTY_NAME;
 import static io.cucumber.junit.platform.engine.Constants.PLUGIN_PROPERTY_NAME;
 
-/**
+
  * Executes only @Smoke-tagged scenarios - the critical business flows that
  * must pass before anything else is trusted. Run via:
  *   mvn test -Dtest=SmokeTestRunner
  *   mvn test -Psmoke
- */
+
 @Suite
 @IncludeEngines("cucumber")
 @SelectClasspathResource("features")
