@@ -14,12 +14,7 @@ import org.openqa.selenium.logging.LogEntry;
 import org.openqa.selenium.logging.LogType;
 import org.slf4j.Logger;
 
-/**
- * Cucumber lifecycle hooks: browser bring-up/teardown, failure screenshots
- * (attached to Allure/Extent/Cucumber reports via Scenario.attach), and
- * scenario-level logging. Runs once per scenario so parallel execution gets
- * an isolated WebDriver per thread (see {@link DriverManager}).
- */
+
 public class Hooks {
 
     private static final Logger log = LogUtils.getLogger(Hooks.class);
